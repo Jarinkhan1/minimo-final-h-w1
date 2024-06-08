@@ -1,0 +1,46 @@
+#f0f0f0 newsletter colour
+font-family: "Ubuntu", sans-serif;
+Terms and conditions
+
+
+/*header start*/
+header{
+	padding: 40px 0;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+	width: 10%;
+	float: left;
+}
+.logo a img{
+	width: 100%;
+}
+.menu{
+        width: 65%;
+        float: right;
+}
+.menu ul{
+        list-style: none;
+        float: right;
+}
+.menu ul li{
+	float: left;
+}
+.menu ul li a{
+	color: #626262;
+	text-decoration: none;
+	display: inline-block;
+	text-transform: uppercase;
+	transition: .33s linear;
+	margin: 0 55px;
+	border-bottom: 1px solid transparent;
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid #626262;
+
+}
+/*header end*/
